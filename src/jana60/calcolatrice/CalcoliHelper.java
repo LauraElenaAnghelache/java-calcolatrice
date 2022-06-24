@@ -40,14 +40,12 @@ Create anche una classe CalcoliTest con il metodo main in cui testate tutti i me
 		}
 	}
 	public static int massimo(int x, int y) {
-		if(x<y) {
-			return y;
-		}else {
+		if(x > y) {
 			return x;
+		}else {
+			return y;
 		}
 	}
-	int number = 0;
-	int power = 0;
 	public static double potenza(int x, int y) {
 		return Math.pow(x, y);
 	}
